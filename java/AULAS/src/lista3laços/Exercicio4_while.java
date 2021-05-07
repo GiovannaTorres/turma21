@@ -47,7 +47,7 @@ public class Exercicio4_while {
 					pessoasCalmasMenos18++;
 				}
 			}
-			else if(caracteristicaPsico == '2') {
+			 if(caracteristicaPsico == '2') {
 				if(genero == '1') {
 					mulheresNervosas++;
 				} if (idade >= 40) {
@@ -55,7 +55,7 @@ public class Exercicio4_while {
 				}
 				
 			}
-			else if(caracteristicaPsico == '3' && genero == '2') {
+			 if(caracteristicaPsico == '3' && genero == '2') {
 				homensAgressivos++;
 			}
 		}
