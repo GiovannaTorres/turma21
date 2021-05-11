@@ -10,11 +10,10 @@ public class Estudante {
 		private String nome;
 		
 		//construtor--------------------
-		public Estudante(int matricula, String cpf, double pontos, boolean status) {
+		public Estudante(int matricula, String cpf, boolean status) {
 			super();
 			this.matricula = matricula;
 			this.cpf = cpf;
-			this.pontos = pontos;
 			this.status = status;
 		}
 		

@@ -2,21 +2,20 @@ package lista6;
 
 public class Cavalo extends Animal {
 	
-	private boolean corre;
 
-	public Cavalo(String nome, int idade, boolean emiteSom, boolean corre) {
-		super(nome, idade, emiteSom);
-		this.corre = corre;
-	}
-
-	public boolean isCorre() {
-		return corre;
-	}
-
-	public void setCorre(boolean corre) {
-		this.corre = corre;
-	}
+	public Cavalo(String nome, int idade) {
+		super(nome, idade);
 	
+	}
+
+	@Override
+	public void som() {
+		System.out.println("iiiiiiiirrrrr");
+	}
+
+	public void correr() {
+		System.out.println("correndo");
+	}
 	
 
 }

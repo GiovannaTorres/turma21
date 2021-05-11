@@ -5,7 +5,7 @@ public class Basico extends Estudante { //estudante é a super de basico
 	private int diaAniversario;
 
 	public Basico(int matricula, String cpf, double pontos, boolean status, int diaAniversario) {
-	super(matricula, cpf, pontos, status);
+	super(matricula, cpf, status);
 	this.diaAniversario = diaAniversario;
 }
 

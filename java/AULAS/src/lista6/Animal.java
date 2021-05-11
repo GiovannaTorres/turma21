@@ -1,17 +1,16 @@
 package lista6;
 
-public class Animal {
+public abstract class Animal {
 		
 		private String nome;
 		private int idade;
-		private boolean emiteSom;
 		
 		
-		public Animal(String nome, int idade, boolean emiteSom) {
+		public Animal(String nome, int idade) {
 			super();
 			this.nome = nome;
 			this.idade = idade;
-			this.emiteSom = emiteSom;
+
 		}
 	
 	
@@ -34,16 +33,11 @@ public class Animal {
 			this.idade = idade;
 		}
 	
-	
-		public boolean isEmiteSom() {
-			return emiteSom;
-		}
-	
-	
-		public void setEmiteSom(boolean emiteSom) {
-			this.emiteSom = emiteSom;
+		public void som() {
+			System.out.println("Fazendo som...");
 		}
 		
-		
+	
+
 
 }
