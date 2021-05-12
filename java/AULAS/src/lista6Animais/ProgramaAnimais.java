@@ -1,4 +1,4 @@
-package lista6;
+package lista6Animais;
 
 public class ProgramaAnimais {
 

@@ -1,6 +1,6 @@
 package classes;
 
-public class Basico extends Estudante { //estudante é a super de basico
+public class Basico extends Estudante {
 	
 	private int diaAniversario;
 

@@ -1,4 +1,4 @@
-package lista6;
+package lista6Animais;
 
 public class Cavalo extends Animal {
 	
@@ -14,7 +14,7 @@ public class Cavalo extends Animal {
 	}
 
 	public void correr() {
-		System.out.println("correndo");
+		System.out.println("correndo trotando");
 	}
 	
 
